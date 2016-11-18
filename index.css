@@ -1,0 +1,97 @@
+<style>
+body {
+    background-color: dimgray;
+}
+article header{
+    padding-bottom: 10px;
+}
+.esq {
+    float: left;
+    padding: 0px;
+    border: thin solid #000;
+    background-color: #AAA;
+}
+
+.dir {
+    float: right;
+    border: thin solid #000;
+    background-color: #AAA;
+    text-align: center;
+}
+.cent {
+    border: thin solid #000;
+    text-align: center;
+    background-color: white;
+    margin: 0px 200px 150px 200px;
+}
+.im {
+    display: block;
+    margin: auto;
+}
+h2 {
+    font-family: helvetica;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-family: helvetica;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    position: inherit;
+    bottom: 0px;
+    width: 100%;
+}
+article nav ul li {
+    position: relative;
+}
+article nav ul li a{
+    text-decoration: none;
+    display: inline;
+    color: #000;
+    border: 1px solid #000;
+    display: block;
+    margin-bottom: -20px;
+}
+article nav ul {
+    padding: 0px;
+    list-style: none;
+}
+.ind ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.cie ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.his ul li a:hover {
+    background-color: antiquewhite;
+    color: white;
+}
+
+.port ul li a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.foot {
+    color: white;
+}
+.ini {
+    color: blue;
+}
+.ci {
+    color: red;
+}
+.hi {
+    color: antiquewhite;
+}
+.pt {
+   color: dodgerblue;
+}
+</style>
